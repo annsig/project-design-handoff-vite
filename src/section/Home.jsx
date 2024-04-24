@@ -1,9 +1,12 @@
 import { Header } from "./Header"
-
+import { JoinUs } from "./JoinUs"
 
 export const Home = () => {
   return (
-    <Header />
+    <>
+        <Header />
+        <JoinUs />
+    </>
   )
 }
 
